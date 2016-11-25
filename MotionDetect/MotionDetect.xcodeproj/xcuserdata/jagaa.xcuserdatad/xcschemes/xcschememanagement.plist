@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>WatchMotionDetect.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>11EA134E1DE71D80007DDF6D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>11EA135F1DE71E01007DDF6D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

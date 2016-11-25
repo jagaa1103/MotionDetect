@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchMotionDetect" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="Start Motion" id="7nH-LB-o0J">
+                            <connections>
+                                <action selector="startMotion" destination="AgC-eL-Hgc" id="2IB-uy-ljM"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Stop Motion" id="eWE-gT-h5Y">
+                            <connections>
+                                <action selector="stopMotion" destination="AgC-eL-Hgc" id="6l0-Dn-zPA"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
